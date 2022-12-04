@@ -1,0 +1,23 @@
+<html>
+<head>
+<meta charset=utf-8>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  type="text/css" href="css/mystyle.css">
+</head>
+<body>
+	<div class="logo">
+    
+    <img src="./images/antharboadhi-100x100.jpg" alt="Antharboadh Educational Society" title="Antharboadh Educational Society">
+	<h1 class="pageheader">Antharboadhi School</h1> 
+</div>
+
+ 	<p  class="slide" id="mydiv"> అ</p>
+<script>
+// Update the count down every 1 second
+ const letters2 = ["అ", "ఆ", "ఇ", "ఈ", "ఉ","ఊ","ఋ",];
+  var x = setInterval(function() {
+  var index = Math.floor(Math.random()*7);
+  document.getElementById("mydiv").innerHTML = letters2[index] ;
+}, 3000);
+</script>
+</body>
